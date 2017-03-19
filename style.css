@@ -40,24 +40,19 @@ small {
 a.language {
     margin-left: 235px;
     color: white;
-    font-size: 12px;
-    font-family: Arial,sans-serif;
-    font-weight: 500;
-}
-
-a.rus {
-    color: white;
     font-size: 13px;
     font-family: Arial,sans-serif;
     font-weight: 500;
+    text-decoration: none;
 }
 
 a.registration {
     margin-left: 15px;
     color: white;
-    font-size: 12px;
+    font-size: 13px;
     font-family: Arial,sans-serif;
     font-weight: 500;
+    text-decoration: none;
 }
 
 a.input {
@@ -76,6 +71,9 @@ a.more:hover  {
     cursor: pointer;
 }
 
+small {
+    font-size: 12px;
+}
 
 h1 {
     font-size: 30px;
@@ -94,31 +92,23 @@ h1 {
 }
 
 .box {
-    margin: 0;
+    margin-top: 3px;
+    margin-left: 0;
+    margin-right: 0;
     cursor: pointer;
 }
 
+:focus{
+    outline: 1px solid #56b4ef;
+}
+
 #full-name,
-#email {
-    width: 372px;
-    padding: 10px;
-    font-size: 18px;
-    margin-bottom: 26px;
-    border-radius: 3px;
-    border: 1px solid #e1e8ed;
-    line-height: 20px;
-    box-shadow: none;
-}
-
-#full-name :focus {
-    outline-width: 10px;
-}
-
+#email,
 #password {
     width: 372px;
     padding: 10px;
     font-size: 18px;
-    margin-bottom: 28px;
+    margin-bottom: 26px;
     border-radius: 3px;
     border: 1px solid #e1e8ed;
     line-height: 20px;
@@ -153,7 +143,7 @@ label {
 }
 
 .t1-label {
-    margin: 0;
+    margin-top: 3px;
     font-size: 13px;
     line-height: 20px;
 }
@@ -175,6 +165,6 @@ label {
 .befound {
     line-height: 18px;
     font-size: 12px;
-    color: #887786;
+    color: #657786;
     margin-bottom: 14px;
 }
