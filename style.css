@@ -1,0 +1,180 @@
+body {
+    font-family: Arial,sans-serif;
+    color: #292f33;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 47px;       
+    background: linear-gradient(to right, #59adeb, #34ce93);
+    margin-bottom: 63px;
+    position: fixed;
+    font-family: FontAwesome;
+}
+
+small {
+    font-size: 80%;
+}
+
+.langinp {
+    margin-top: -22px;
+    margin-left: 700px;
+}
+
+#caret {
+    color: white;
+    cursor: pointer;
+    font-size: 11px;
+    margin-left: 3px;
+}
+
+#icon {
+    margin-left: 690px;
+    margin-top: 12.2px;
+    color: white;
+    font-size: 23.4px;
+    cursor: pointer;
+}
+
+a.language {
+    margin-left: 235px;
+    color: white;
+    font-size: 12px;
+    font-family: Arial,sans-serif;
+    font-weight: 500;
+}
+
+a.rus {
+    color: white;
+    font-size: 13px;
+    font-family: Arial,sans-serif;
+    font-weight: 500;
+}
+
+a.registration {
+    margin-left: 15px;
+    color: white;
+    font-size: 12px;
+    font-family: Arial,sans-serif;
+    font-weight: 500;
+}
+
+a.input {
+    color: white;
+    font-size: 13px;
+    font-family: Arial,sans-serif;
+    font-weight: 500;
+}
+
+a.language:hover,
+a.input:hover,
+a.legal-link:hover,
+a.more:hover  {
+    color: #1da1f2;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+h1 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 300;
+    padding: 0;
+    margin-bottom: 24px;
+    margin-top: 130px;
+}
+
+.signup-wrapper {
+    width: 392px;
+    padding: 30px 0;
+    margin: 0 auto;
+    margin-bottom: 51px;
+}
+
+.box {
+    margin: 0;
+    cursor: pointer;
+}
+
+#full-name,
+#email {
+    width: 372px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 26px;
+    border-radius: 3px;
+    border: 1px solid #e1e8ed;
+    line-height: 20px;
+    box-shadow: none;
+}
+
+#full-name :focus {
+    outline-width: 10px;
+}
+
+#password {
+    width: 372px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 28px;
+    border-radius: 3px;
+    border: 1px solid #e1e8ed;
+    line-height: 20px;
+    box-shadow: none;
+}
+
+.sign-up-box {
+    color: white;
+    width: 392px;
+    border-top: 0;
+    text-align: left;
+    margin: 15px 0;
+}
+
+#submit_button {
+    width: 392px;
+    background-color: #1da1f2;
+    color: white;
+    background-repeat: no-repeat;
+    background-image: none;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 13px 16px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 11px;
+}
+
+label {
+    color: #66757f;
+}
+
+.t1-label {
+    margin: 0;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.cookie-personalization-support,
+.legal-link,
+.SlidedownOptions-headerLink {
+    color: #1b95e0;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.more {
+    color: #1b95e0;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.befound {
+    line-height: 18px;
+    font-size: 12px;
+    color: #887786;
+    margin-bottom: 14px;
+}
