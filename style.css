@@ -33,6 +33,7 @@ small {
 .icon-bird:hover {
     border-bottom: 5px solid #1b95e0;
     transition: none;
+    cursor: pointer;
 }
 
 #caret {
@@ -78,6 +79,7 @@ a.input {
 }
 
 a.language:hover,
+a.registration:hover,
 a.input:hover,
 a.legal-link:hover,
 a.more:hover  {
